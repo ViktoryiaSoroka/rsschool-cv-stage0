@@ -18,8 +18,10 @@ English: Pre-Intermediate (A2).
 ### **Education** ###
 
 - Belarusian National Technical University (2007-2013)
-- The Rolling Scopes: «JavaScript/Front-end» (February 2019)  
-- Codacademy (February 2019)  
+- The Rolling Scopes: «JavaScript/Front-end» (February 2019)
+[https://rs.school](https://rs.school)  
+- Codacademy (February 2019)
+[https://www.codecademy.com/](https://www.codecademy.com/)  
 
 ### **Technical skills** ###
 
