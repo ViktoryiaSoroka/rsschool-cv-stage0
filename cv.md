@@ -1,5 +1,7 @@
 # **SUMMARY** #
 
+![image](https://www.ateamindia.com/wp-content/uploads/2018/10/JavaScript-1.jpg)
+
 ## Viktoryia Soroka ##
 
 Junior developer
