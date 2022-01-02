@@ -2,29 +2,128 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>SUMMARY</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Summary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/vendor/normalize.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
-        <div id="name" class="about">
-            <h1>Viktoryia Soroka</h1>
-            <p>Junior developer</p>
-        </div>
-        <div id="person" class="abot"></div>
-        <div id="contact" class="about"></div>
-    </header>
-    <main>
-        <div class="about">
-            <h2>Professional profile</h2>
-            <h2>Technical skills</h2>
-            <h2>Personal qualities:</h2>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; Copyright 2019 by VS</p>
-    </footer>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Professional profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Technical skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code-example">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="left-side">
+                <div id="person">
+                    <img src="assets/images/Person.JPG" alt="photo" class="person-foto">
+                </div>
+                <div id="contact">
+                    <ul class="contact-list">
+                        <li class="contact-item"><a class="link"
+                            href="https://www.google.com/maps/d/viewer?ie=UTF8&oe=UTF8&msa=0&mid=1YQFsL4xLz3WsXdUK_gaKZWtmJGA&ll=49.841920000000016%2C24.031799&z=17"><span class="icon map-icon"></span>Ukraine, Lviv</a></li>   
+                        <li class="contact-item"><a class="link" href="tel:+380631840970"><span class="icon tel-icon"></span>+380-63-184-09-70</a></li>
+                        <li class="contact-item"><a class="link" href="mailto:v.soroka@live.com"><span
+                            class="icon mail-icon"></span>v.soroka@live.com</a></li>
+                        <li class="contact-item"><a class="link" href="https://discord.gg/zkFfDPGw"><span class="icon discord-icon"></span>Discord</a></li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="right-side">
+                <div id="profile">
+                    <h1>Viktoryia Soroka</h1>
+                    <p>Junior developer</p>
+                    <h2>Professional profile</h2>
+                    <p>Novice frontend-developer.<br>Confident knowledge of HTML, CSS, JavaScript. <br>English:
+                        Pre-Intermediate
+                        (A2).</p>
+                    <h2>Personal qualities</h2>
+                    <ol>
+                        <li>work closely with other developers and professionals;</li>
+                        <li>organize and manage multiple priorities simultaneously;</li>
+                        <li>quickly fit into any existing team of developers the ability to work on your own with
+                            minimum
+                            supervision.</li>
+                    </ol>
+                </div>
+                <div id="education">
+                    <h2>Education</h2>
+                    <table>
+                        <tr>
+                            <td><a class="link-education" href="http://www.bntu.by/">Belarusian National Technical
+                                    University</a></td>
+                            <td>2007-2013</td>
+                        </tr>
+                        <tr>
+                            <td><a class="link-education" href="https://school.rollingscopes.com/">The Rolling
+                                    Scopes</a></td>
+                            <td rowspan="2">February 2019</td>
+                        </tr>
+                        <tr>
+                            <td><a class="link-education" href="https://www.codecademy.com/">Codecademy</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="skills">
+                    <h2>Technical skills</h2>
+                    <ul>
+                        <li>OS: Windows, macOS.</li>
+                        <li>Languages: Javascript, HTML, CSS.</li>
+                    </ul>
+                </div>
+                <div id="code-example">
+                    <h2>Code example</h2>
+                    <pre>
+                        <code class="code">
+                            module.exports = function warmup(temperature) {
+                            return 9/5*temperature + 32;
+                            };
+                        </code>
+                    </pre>
+                </div>
+                <div id="projects">
+                    <h2>Projects</h2>
+                    <a href="https://viktoryiasoroka.github.io/rsschool-cv/cv" target="_blank">
+                        <img src="assets/images/JavaScript.png" alt="JavaScript" class="projects__icon">
+                      </a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-item">
+                <a href="https://github.com/ViktoryiaSoroka">
+                    <img src="assets/images/GitHub.png" alt="Github Icon" class="github-icon">
+                </a>
+            </div>
+            <div class="footer-item">
+                <a href="https://rs.school/js/">
+                    <img src="assets/images/rs_school_js.png" alt="Rsschool Icon" class="rsschool-icon">
+                </a>
+            </div>
+            <div class="footer-item">
+                <p>&copy; Copyright 2021 by VS</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
