@@ -1,0 +1,187 @@
+body, html {
+    font-size: 26px;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fbfbfb;
+    color: #343434;
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.header {
+    background: #e9e6e3;
+    border-bottom: 2px solid rgb(155, 164, 170);
+    padding: 0 5% 0;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000080;
+    font-style: small-caps;
+}
+
+.nav-link:hover {
+    color: #800000;
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.left-side {
+    width: 33%;
+    color: white;
+    background-color: #faf7f4;
+    padding: 1%;
+}
+.right-side {
+    width: 70%;
+    background-color: #f8f4ef;
+    padding: 2%;
+}
+
+h2 {
+    text-decoration: underline;
+    background-color: #343434;
+    color: #FFF;
+    font-size: 90%;
+    padding: 1%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.contact-list {
+    margin: 2%;
+    padding: 0;
+    list-style-type: none;
+}
+
+.code {
+    white-space: pre-line;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: #e9e6e3;
+    color: #343434;
+    border-top: 2px solid rgb(155, 164, 170);
+    padding: 1% 0;
+}
+
+#person {
+    display: flex;
+    height: 260px;
+    justify-content: center;
+    width: 260px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}    
+.person-foto {
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 0%;
+}
+
+.link {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    color: #343434;
+    text-decoration: none;
+    margin: 1%;
+    padding: 5%;
+}
+
+.contact-item {
+    margin-top: 5%;
+}
+
+.icon {
+    display: inline-block;
+    min-height: 20px;
+    min-width: 38px; 
+    margin-top: 3%;
+}
+
+.map-icon {
+    background: url('images/location@1X.png') no-repeat;
+}
+
+.tel-icon {
+    background: url('images/phone@1X.png') no-repeat;
+}
+
+.mail-icon {
+    background: url('images/mail@1X.png') no-repeat;
+}
+
+.discord-icon {
+    background: url('images/Discord.png') no-repeat;
+    padding: 4%;
+}
+
+.rsschool-icon {
+    width: 30%;
+}
+
+.projects__icon {
+    width: 60%;
+}
+
+.about {
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 20px;
+    margin: 1%;
+}
+
+table {
+    margin-left: 25px;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.link-education {
+    text-decoration: none;
+    color: #000080;
+}
+
+.link-education:hover {
+    color: #800000;
+    text-decoration: underline;
+}
