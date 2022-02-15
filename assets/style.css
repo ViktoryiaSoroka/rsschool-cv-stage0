@@ -157,6 +157,7 @@ h1 {
 .rsschool-icon {
     width: 30%;
 }
+<<<<<<< HEAD
 
 .projects {
     display: flex;
@@ -169,10 +170,11 @@ h1 {
     width: 45%;
     margin: 3px;
 }
+=======
+>>>>>>> parent of 542c079 (docs: add new projects and favicon)
 
 .projects__icon {
-    width: 100%;
-    height: 100%;
+    width: 60%;
 }
 
 .about {
