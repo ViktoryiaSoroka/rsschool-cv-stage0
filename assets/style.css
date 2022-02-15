@@ -1,11 +1,12 @@
-body, html {
+body,
+html {
     font-size: 26px;
     font-family: "Poppins", Arial, sans-serif;
     background: #fbfbfb;
     color: #343434;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1280px;
     margin: auto;
 }
@@ -42,16 +43,18 @@ body, html {
     text-decoration: underline;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: row;
 }
+
 .left-side {
     width: 33%;
     color: white;
     background-color: #faf7f4;
     padding: 1%;
 }
+
 .right-side {
     width: 70%;
     background-color: #f8f4ef;
@@ -72,6 +75,7 @@ h2 {
     justify-content: space-around;
 
 }
+
 .contact-list {
     margin: 2%;
     padding: 0;
@@ -101,7 +105,8 @@ h2 {
     position: relative;
     z-index: 2;
     overflow: hidden;
-}    
+}
+
 .person-foto {
     width: 100%;
     object-fit: cover;
@@ -128,7 +133,7 @@ h1 {
 .icon {
     display: inline-block;
     min-height: 20px;
-    min-width: 38px; 
+    min-width: 38px;
     margin-top: 3%;
 }
 
@@ -152,12 +157,14 @@ h1 {
 .rsschool-icon {
     width: 30%;
 }
+
 .projects {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .project_link {
     width: 45%;
     margin: 3px;
