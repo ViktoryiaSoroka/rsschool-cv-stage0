@@ -1,3 +1,3 @@
 # rsschool-cv
-https://viktoryiasoroka.github.io/rsschool-cv/cv
-https://viktoryiasoroka.github.io/rsschool-cv
+https://viktoryiasoroka.github.io/rsschool-cv-stage0/cv
+https://viktoryiasoroka.github.io/rsschool-cv-stage0
